@@ -3,7 +3,7 @@ const weatherUrl = "https://api.openweathermap.org/data/2.5";
 const cityUrl = "https://api.openweathermap.org/geo/1.0/direct?q";
 const dateToday = new Date();
 
-const apiKey = 0f6abc414e7d40fac7cce2c42441f55b
+const apiKey = "0f6abc414e7d40fac7cce2c42441f55b"
 
 
 export async function findCoordinates(cityName) {

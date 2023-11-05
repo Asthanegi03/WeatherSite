@@ -1,0 +1,42 @@
+.conditionIcon{
+    font-size: 1.3em;
+    transform: translateY(3px);
+    margin-right: 3px;
+}
+
+.weatherIcon{
+    height: 70px;
+}
+
+@media (max-width:1300px){
+
+    .conditionText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+@media (max-width:500px){
+    
+    .conditionText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .weatherIcon{
+        height: 50px;
+    }
+}
+
+@media (max-width:395px){
+
+    .double{
+        width: 60px
+    }
+
+    #airConditionDiv{
+        padding-top: 1.5em;
+    }
+}

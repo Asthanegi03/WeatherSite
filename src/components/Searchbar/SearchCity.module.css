@@ -1,0 +1,64 @@
+.cityForm {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 4em;
+  margin-bottom: 2em;
+}
+
+.cityForm input::placeholder {
+  color: rgb(205, 197, 197);
+}
+
+.cityForm input {
+  width: 90%;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.5em;
+
+  font-size: 1.1em;
+  padding: 0.3em 0.6em 0.2em 0.6em;
+  border: 0;
+  border-bottom: 1px solid rgb(224, 213, 213);
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.cityForm input:active,
+.cityForm input:focus {
+  outline: 0;
+}
+
+.cityForm button {
+  padding: 0.3em 0.8em;
+  font-size: 1.1em;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.3em;
+  transition: 200ms;
+}
+
+.cityForm button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 560px) {
+  .cityForm input {
+    font-size: 1em;
+  }
+
+  .cityForm button {
+    font-size: 1em;
+  }
+  .cityForm{
+    margin-top: 1.3em;
+  }
+}

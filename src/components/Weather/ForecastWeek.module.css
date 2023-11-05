@@ -1,0 +1,20 @@
+.weeklyForecast{
+    grid-row: span 2;
+    
+}
+
+.responsiveWeek{
+    width: 85%;
+}
+
+@media (max-width:1100px){
+    .responsiveWeek{
+        width: 90%;
+    }
+}
+
+@media (max-width:560px){
+    .responsiveWeek{
+        width: 90%;
+    }
+}
